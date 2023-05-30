@@ -20,7 +20,7 @@ function Footer() {
         <div className="col-12 links-footer">
          <a href="/" className="link-white">Home</a>
          <a href="/sobre" className="link-white">Sobre</a>
-         <a href="/contatos" className="link-white">Contatos</a>
+         <a href="/contato" className="link-white">Contatos</a>
         </div>  
        
         </Form.Group>
