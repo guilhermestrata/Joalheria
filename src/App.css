@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Montserrat:wght@300&display=swap');
+*{
+  padding: 0%;
+}
+.top-navbar{
+  padding: 0 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar-collapse {
+  flex-grow: 0!important;
+}
+.links{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color:rgb(85, 72, 0);
+  
+}
+.links .nav-link:hover{
+  transition: transform 0.3s ease;
+  transform: scale(1.1);
+}
+.d-flex .me-2{
+  height: 100%;
+  width: 500px;
+}
+.lupa{
+  margin-left: -45px;
+  border: rgb(207, 207, 207) 1px solid!important;
+}
+.d-block{
+  height: 60vh;
+  filter: brightness(0.4);
+  object-fit: cover;
+}
+body{
+  background-color: rgb(218, 218, 218)!important;
+}
+.brand{
+  font-size: 35px!important;
+  font-family: 'Great Vibes', cursive;
+}
+.texto-card{
+  width: 100%;
+  bottom: 0;
+  padding: 2px!important;
+  position: absolute;
+  background-color: white;
+}
+.card{
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 10px;
+  filter: brightness(0.9);
+  display: flex;
+  background-color: rgb(10, 10, 10)!important;
+  opacity: 85%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none!important;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  opacity: 100%;
+}
+.colecoes{
+  overflow-y: hidden;
+  color: rgb(37, 37, 37);
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 15px;
+  text-align: center;
+}
+.flex-column{
+  width: 350px;
+}
+.text-center {
+  overflow-x: hidden;
+  margin-top: 4px;
+  color: rgb(206, 206, 206)!important;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+.light-color {
+  color: #f8f9fa; /* Altera a cor para light do Bootstrap */
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px; /* Adicione a margem desejada */
+  padding: 5px;
+}
+.footer-container{
+  background-color: rgb(0, 0, 0);
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.footer-container h4{
+  overflow-y: hidden;
+  font-family: 'Great Vibes', cursive;
+  margin-top: 20px ;
+  font-size: 40px ;
+  color: rgb(218, 218, 218);
+}
+.footer-container p{
+  color: rgb(218, 218, 218);
+}
+.email-footer {
+  font-size: 14px;
+  text-align: center;
+  color:#f8f9fa
+}
+
+.email-footer + .form-control {
+  border-radius: 20px;
+  padding: 8px 12px;
+  font-size: 14px;
+  width: 200px; /* Defina a largura desejada */
+  margin-bottom: 50px;
+}
+.links-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom:20px ;
+}
+
+.links-footer a {
+  color: #f8f9fa;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; 
+}
+
+.links-footer a:hover {
+  transform: scale(1.1);
+  color: #dee2e6;
+}
+
+.noticias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.link-black {
+  color: black;
+}
+.nav-link{
+  justify-content: center;
+}
+.flex-column .nav-link {
+  transition: transform 0.3s ease;
+}
+.flex-column .nav-link:hover {
+  transform: scale(1.05);
+
+}
+.flex-column{
+  margin-left: 15px;
+}
+.btn-sobre{
+  display: flex;
+}
+.img-sobre{
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.texto-sobre{
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(66, 66, 66);
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .d-flex .me-2 {
+    width: 100%;
+    max-width: none;
+  }
+
+  .img-sobre {
+    max-width: 100%;
+  }
+}
